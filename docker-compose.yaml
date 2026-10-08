@@ -10,7 +10,7 @@ services:
       - "8080:8080/tcp"
       - "8081:8081/tcp"
     volumes:
-      - data:/root/.hamclock
+      - data:/root/hamclock/hamclock-docker    
     restart: unless-stopped
 
 volumes:
